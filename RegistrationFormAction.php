@@ -9,7 +9,15 @@
 
 	<?php 
 
-		echo $_POST['fname'] . " " . $_POST['lname'];
+		if($_SERVER["REQUEST_METHOD"] == "POST") {
+
+			if(empty($_POST['fname']) && empty($_POST['lname'])) {
+				echo "Fill the form properly";
+			}
+			else {
+				echo $_POST['fname'] . " " . $_POST['lname'];
+			}
+		}
 		// echo $_REQUEST['fname'] . " " . $_REQUEST['lname'];
 	?>
 
