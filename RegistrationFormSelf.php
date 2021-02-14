@@ -20,11 +20,6 @@
 
 		<br>
 
-		<label for="pass">Password</label>
-		<input type="password" name="passw" id="pass"> 
-
-		<br>
-
 		<!-- Input submit -->
 		<input type="submit" value="Submit">
 
