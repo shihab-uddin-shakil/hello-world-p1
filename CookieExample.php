@@ -22,12 +22,12 @@
 			echo "Cookie disabled";
 		}
 
-		/*if(isset($_COOKIE["user_id_1"])) {
-			echo "Name of the cookie is: " . $_COOKIE["user_id_1"];
+		if(isset($_COOKIE["user_id"])) {
+			echo "Name of the cookie is: " . $_COOKIE["user_id"];
 		}
 		else {
-			echo "user_id_1" . " cookie not set";
-		}*/
+			echo "user_id" . " cookie not set";
+		}
 	?>
 
 </body>
